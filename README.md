@@ -12,3 +12,44 @@ AgriConnect is an innovative app that provides direct incentives for‬ small-sc
 ## Download the App
 > You can download the app safely through [this link](app-debug.apk).
 
+## Architecture Diagram
+![Architecture Diagram](./images/arch.png)
+*Overview of the app's architecture.*
+
+## App Screenshots
+
+### Home Screen
+![Home Screen](./images/home.jpg)
+*The main landing page of the app.*
+
+### Login Screen
+![Login Screen](./images/login.jpg)
+*Login page for user authentication.*
+
+### OTP Verification
+![OTP Verification](./images/otp.jpg)
+*OTP verification screen for secure login.*
+
+### Add Listing
+![Add Listing](./images/addlisting.jpg)
+*Interface for adding new listings to the platform.*
+
+### Your Listings - Farmer
+![Your Listings - Farmer](./images/yourlistingfarmer.jpg)
+*View of listings posted by a farmer.*
+
+### Your Listings - Merchant
+![Your Listings - Merchant](./images/yourlistingmerchant.jpg)
+*View of listings posted by a merchant.*
+
+### Other Listings - Farmer
+![Other Listings - Farmer](./images/otherlistingfarmer.jpg)
+*Listings available for the farmers.*
+
+### Other Listings - Merchant
+![Other Listings - Merchant](./images/otherlistingmerchant.jpg)
+*Listings available for the merchants.*
+
+### Transaction Screen
+![Transaction Screen](./images/transaction.jpg)
+*Screen for handling transactions within the app.*

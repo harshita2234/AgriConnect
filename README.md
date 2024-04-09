@@ -13,43 +13,43 @@ AgriConnect is an innovative app that provides direct incentives for‬ small-sc
 > You can download the app safely through [this link](app-debug.apk).
 
 ## Architecture Diagram
-![Architecture Diagram](./images/arch.png)
+![Architecture Diagram](Images/arch.png)
 *Overview of the app's architecture.*
 
 ## App Screenshots
 
 ### Home Screen
-![Home Screen](./images/home.jpg)
+![Home Screen](Images/home.jpg)
 *The main landing page of the app.*
 
 ### Login Screen
-![Login Screen](./images/login.jpg)
+![Login Screen](Images/login.jpg)
 *Login page for user authentication.*
 
 ### OTP Verification
-![OTP Verification](./images/otp.jpg)
+![OTP Verification](Images/otp.jpg)
 *OTP verification screen for secure login.*
 
 ### Add Listing
-![Add Listing](./images/addlisting.jpg)
+![Add Listing](Images/addlisting.jpg)
 *Interface for adding new listings to the platform.*
 
 ### Your Listings - Farmer
-![Your Listings - Farmer](./images/yourlistingfarmer.jpg)
+![Your Listings - Farmer](Images/yourlistingfarmer.jpg)
 *View of listings posted by a farmer.*
 
 ### Your Listings - Merchant
-![Your Listings - Merchant](./images/yourlistingmerchant.jpg)
+![Your Listings - Merchant](Images/yourlistingmerchant.jpg)
 *View of listings posted by a merchant.*
 
 ### Other Listings - Farmer
-![Other Listings - Farmer](./images/otherlistingfarmer.jpg)
+![Other Listings - Farmer](Images/otherlistingfarmer.jpg)
 *Listings available for the farmers.*
 
 ### Other Listings - Merchant
-![Other Listings - Merchant](./images/otherlistingmerchant.jpg)
+![Other Listings - Merchant](Images/otherlistingmerchant.jpg)
 *Listings available for the merchants.*
 
 ### Transaction Screen
-![Transaction Screen](./images/transaction.jpg)
+![Transaction Screen](Images/transaction.jpg)
 *Screen for handling transactions within the app.*

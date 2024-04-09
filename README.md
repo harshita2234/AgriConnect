@@ -8,48 +8,50 @@ AgriConnect is an innovative app that provides direct incentives for‬ small-sc
 ![NoSQL](https://img.shields.io/badge/-NoSQL-000000?style=flat-square&logo=nosql&logoColor=white)
 ![Firestore](https://img.shields.io/badge/-Firestore-FFA000?style=flat-square&logo=firebase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![Miro](https://img.shields.io/badge/-Miro-050038?style=flat-square&logo=miro&logoColor=white)
 
 ## Download the App
 > You can download the app safely through [this link](app-debug.apk).
 
 ## Architecture Diagram
-![Architecture Diagram](Images/arch.png)
+<img src="Images/arch.png" alt="Architecture Diagram" height="400">
 *Overview of the app's architecture.*
 
 ## App Screenshots
 
 ### Home Screen
-![Home Screen](Images/home.jpg)
+<img src="Images/home.jpg" alt="Home Screen" height="400">
 *The main landing page of the app.*
 
 ### Login Screen
-![Login Screen](Images/login.jpg)
+<img src="Images/login.jpg" alt="Login Screen" height="400">
 *Login page for user authentication.*
 
 ### OTP Verification
-![OTP Verification](Images/otp.jpg)
+<img src="Images/otp.jpg" alt="OTP Verification" height="400">
 *OTP verification screen for secure login.*
 
 ### Add Listing
-![Add Listing](Images/addlisting.jpg)
+<img src="Images/addlisting.jpg" alt="Add Listing" height="400">
 *Interface for adding new listings to the platform.*
 
 ### Your Listings - Farmer
-![Your Listings - Farmer](Images/yourlistingfarmer.jpg)
+<img src="Images/yourlistingfarmer.jpg" alt="Your Listings - Farmer" height="400">
 *View of listings posted by a farmer.*
 
 ### Your Listings - Merchant
-![Your Listings - Merchant](Images/yourlistingmerchant.jpg)
+<img src="Images/yourlistingmerchant.jpg" alt="Your Listings - Merchant" height="400">
 *View of listings posted by a merchant.*
 
 ### Other Listings - Farmer
-![Other Listings - Farmer](Images/otherlistingfarmer.jpg)
+<img src="Images/otherlistingfarmer.jpg" alt="Other Listings - Farmer" height="400">
 *Listings available for the farmers.*
 
 ### Other Listings - Merchant
-![Other Listings - Merchant](Images/otherlistingmerchant.jpg)
+<img src="Images/otherlistingmerchant.jpg" alt="Other Listings - Merchant" height="400">
 *Listings available for the merchants.*
 
 ### Transaction Screen
-![Transaction Screen](Images/transaction.jpg)
+<img src="Images/transaction.jpg" alt="Transaction Screen" height="400">
 *Screen for handling transactions within the app.*

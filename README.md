@@ -9,7 +9,6 @@ AgriConnect is an innovative app that provides direct incentives for‬ small-sc
 ![Firestore](https://img.shields.io/badge/-Firestore-FFA000?style=flat-square&logo=firebase&logoColor=white)
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-> **Download the App**
-> 
+## Download the App
 > You can download the app safely through [this link](./root/app-debug.apk).
 

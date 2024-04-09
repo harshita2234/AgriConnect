@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/enter_otp"
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:fontFamily="@font/lato_black"
+        android:gravity="center"
+        android:text="Enter OTP"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="281dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/verifyOtpButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="367dp"
+        android:background="@drawable/button_green"
+        android:fontFamily="@font/lato_black"
+        android:text="Verify OTP"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

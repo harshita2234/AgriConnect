@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AgriConnect</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="no_account_sign_up">No account? Sign up</string>
+    <string name="about_us">About AgriConnect:\nAgriConnect is an innovative app that provides direct incentives for small-scale farmers to sell and merchants to purchase crops hassle-free. The app uses Android Studio with Kotlin and NoSQL while incorporating APIs for additional functionalities, AgriConnect boasts an easy-to-use interface and intuitive features. As the project is still under development, I am enthusiastically contributing my skills to its ongoing refinement, ensuring its potential to impact the agricultural sector significantly.</string>
+    <string name="add_listing">Add Listing</string>
+    <string name="crop_name">Crop Name:</string>
+    <string name="add">Add</string>
+    <string name="enter_total_price">Enter TOTAL Price:</string>
+    <string name="total_price">Total Price:</string>
+    <string name="enter_location">Enter Location:</string>
+    <string name="enter_crop_name">Enter Crop Name:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="enter_quantity_in_quintals">Enter Quantity (in Quintals):</string>
+    <string name="location">Location:</string>
+    <string name="greeting_message">Hello, %1$s!</string>
+</resources>

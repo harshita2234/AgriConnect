@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/lato_black"
+        android:gravity="top"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="Name (as per Bank Account):"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="156dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="Enter FULL NAME:"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/role"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="Role:"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <RadioGroup
+        android:id="@+id/roleRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="258dp">
+        <RadioButton
+            android:id="@+id/farmerRadioButton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Farmer"
+            android:textSize="20sp" />
+        <RadioButton android:id="@+id/merchantRadioButton"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/lato_black"
+            android:text="Merchant" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="Bank Account Number:"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/accountEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="360dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="Enter correct number:"
+        android:inputType="phone"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/ifsc"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="434dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="IFSC Code:"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/ifscEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="462dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="Enter IFSC Code:"
+        android:padding="16dp" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="536dp"
+        android:background="@drawable/button_green"
+        android:fontFamily="@font/lato_black"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+</RelativeLayout>

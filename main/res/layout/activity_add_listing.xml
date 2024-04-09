@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/add_listing"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/lato_black"
+        android:gravity="top"
+        android:text="@string/add_listing"
+        android:textColor="@color/green"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/crop"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="@string/crop_name"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/cropEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="156dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="@string/enter_crop_name"
+        android:inputType="text"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="@string/quantity"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="258dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:inputType="number"
+        android:hint="@string/enter_quantity_in_quintals"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="332dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="@string/location"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="360dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:fontFamily="@font/lato"
+        android:hint="@string/enter_location"
+        android:inputType="text"
+        android:padding="16dp" />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="434dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="top"
+        android:text="@string/total_price"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="462dp"
+        android:background="#FFFFFF"
+        android:elevation="15dp"
+        android:inputType="number"
+        android:fontFamily="@font/lato"
+        android:hint="@string/enter_total_price"
+        android:padding="16dp" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="536dp"
+        android:background="@drawable/button_black"
+        android:fontFamily="@font/lato_black"
+        android:text="@string/add"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+</RelativeLayout>

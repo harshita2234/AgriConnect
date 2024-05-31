@@ -6,3 +6,4 @@
 *.css linguist-detectable=true
 *.js linguist-detectable=true
 *.tex linguist-detectable=false
+*.tex linguist-language=Ignore

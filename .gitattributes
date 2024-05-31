@@ -1,3 +1,8 @@
+*.html linguist-detectable=true
 *.xml linguist-detectable=true
 *.kt linguist-detectable=true
+*.java linguist-detectable=true
+*.json linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
 *.tex linguist-detectable=false

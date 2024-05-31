@@ -1,3 +1,4 @@
+*.tex linguist-language=Ignore
 *.html linguist-detectable=true
 *.xml linguist-detectable=true
 *.kt linguist-detectable=true
@@ -5,5 +6,6 @@
 *.json linguist-detectable=true
 *.css linguist-detectable=true
 *.js linguist-detectable=true
+*.bib linguist-detectable=false
+*.bst linguist-detectable=false
 *.tex linguist-detectable=false
-*.tex linguist-language=Ignore

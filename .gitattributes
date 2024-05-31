@@ -1,2 +1,3 @@
 *.xml linguist-detectable=true
 *.kt linguist-detectable=true
+*.kt linguist-detectable=false

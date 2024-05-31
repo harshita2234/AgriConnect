@@ -55,3 +55,6 @@ Listings available for the merchants.
 ### Transaction Screen
 <img src="Images/transaction.jpg" alt="Transaction Screen" height="400">
 Screen for handling transactions within the app.
+
+<!-- Trigger reindex -->
+
